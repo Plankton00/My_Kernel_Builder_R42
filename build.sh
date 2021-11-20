@@ -61,7 +61,7 @@ KERNEL_FOR=Base-R42-NLV-HMP-Overclock
 
 JENIS=[NLV]
 
-VARIAN=Ryzen-radeon-#1
+VARIAN=-#1
 # Build Type
 BUILD_TYPE="Nightly"
 

@@ -49,7 +49,7 @@ DEVICE="X00TD/X00T"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
-DEFCONFIG=X00TD_defconfig
+DEFCONFIG=Magazine_defconfig
 
 # Show manufacturer info
 MANUFACTURERINFO="ASUSTek Computer Inc."
@@ -61,7 +61,7 @@ KERNEL_FOR=Base-R42-NLV-HMP-Overclock
 
 JENIS=[NLV]
 
-VARIAN=-#1
+VARIAN=GeForce-RTX-#1
 # Build Type
 BUILD_TYPE="Nightly"
 
@@ -140,7 +140,7 @@ DATE2=$(TZ=Asia/Jakarta date +"%Y%m%d")
 	if [ $COMPILER = "clang" ]
 	then
 		msg "|| Cloning toolchain ||"
-		git clone --depth=1 https://github.com/Plankton00/Predator_Clang_14.git clang
+		git clone --depth=1 https://github.com/Plankton86/Predator_Clang_14.git clang
 
 	elif [ $COMPILER = "gcc" ]
 	then
